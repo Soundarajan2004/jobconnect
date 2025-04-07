@@ -56,6 +56,11 @@ To get a local copy up and running follow these simple steps.
    COOKIE_EXPIRE=
    ```
 
+   - Create a `.env` file in the frontend directory, containing the following variable:
+   ```env
+   VITE_SERVER_URL = "http://localhost:4000/api"
+   ```
+
    Replace each value with your specific configuration details.
 
 4. Run the backend first:
